@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import { Canvas } from '@react-three/fiber';
 import Animal from '../components/Animal';
 import Loader from '../components/Loader';
-import useAlert from '../../hooks/useAlert';
+import useAlert from '../hooks/useAlert';
 import Alert from '../components/Alert';
 import { arrow } from '../assets/icons';
 import { NavLink } from 'react-router-dom';
